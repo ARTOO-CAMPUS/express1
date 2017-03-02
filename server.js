@@ -26,5 +26,5 @@ app.delete('/users/:id', function (req, res) {
 
 //START DEL SERVER
 app.listen(PORT, function () {
-    console.log('Application start at localhost:' + PORT);
+    console.log('Application start at http://localhost:' + PORT);
 });
